@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 	padding-bottom: 56.25%; /* 16:9 */
 	height: 0;
 }
-.video-container iframe {
+.video-container iframe, .video-container image {
 	position: absolute;
 	top: 0;
 	left: 0;
