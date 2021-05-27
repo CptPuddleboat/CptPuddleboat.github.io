@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 	padding-bottom: 56.25%; /* 16:9 */
 	height: 0;
 }
-.video-container iframe, .video-container image {
+.video-container iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2379,14 +2379,14 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 8px;
+		border-radius: 0px;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 8px;
+			border-radius: 0px;
 			display: block;
 		}
 
